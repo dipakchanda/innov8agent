@@ -1,0 +1,93 @@
+// Main Header
+.mainHeader {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    z-index: 9;
+
+    @include md {
+        top: 20px;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: clr(light, outline);
+        border-radius: 4px;
+        padding: 10px;
+        box-shadow: 0 0 16px rgba(clr(dark, main), 0.4);
+
+        @include md {
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .navbar-brand {
+            font-size: unset;
+            padding: 0;
+            margin: 0;
+
+            img {
+                height: 30px;
+
+                @include md {
+                    height: 45px;
+                }
+            }
+        }
+
+        .navbar-toggler {
+            color: clr(dark, main);
+            font-size: 2em;
+            box-shadow: unset;
+            border: none;
+            border-radius: 0;
+            padding: 0;
+        }
+
+        .navbar-nav {
+            gap: 30px;
+
+            .nav-item {
+                position: relative;
+
+                .nav-link {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 4px;
+                    font-size: 1em;
+                    font-weight: 500;
+                    position: relative;
+                    color: clr(black, main);
+                    text-transform: capitalize;
+                    padding: 0;
+
+                    &:hover,
+                    &.active {
+                        color: clr(primary, main);
+                    }
+                }
+            }
+        }
+
+        .btn {
+            flex-shrink: 0;
+            gap: 10px;
+
+            @include md {
+                order: 4;
+                gap: 15px;
+            }
+        }
+    }
+
+    &.sticky {
+        top: 0;
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+        }
+    }
+}

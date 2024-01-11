@@ -1,0 +1,43 @@
+// Faq Item
+.faqItem {
+    border: none;
+    border-radius: 0;
+
+    .accordion-header {
+        .accordion-button {
+            font-weight: 700;
+            border: none;
+            border-radius: 0;
+            background-color: transparent;
+            box-shadow: none;
+            padding-left: 0;
+            padding-right: 0;
+
+            &:after {
+                content: "\e938";
+                font-family: "icomoon" !important;
+                background: unset;
+            }
+
+            &:not(.collapsed) {
+                color: clr(primary, main);
+
+                &::after {
+                    content: "\e931";
+                }
+            }
+        }
+    }
+
+    .accordion-body {
+        padding: 0;
+
+        p {
+            margin-bottom: 0;
+
+            + p {
+                margin-top: 12px;
+            }
+        }
+    }
+}

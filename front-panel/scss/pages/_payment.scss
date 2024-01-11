@@ -1,0 +1,177 @@
+// Login Page
+.paymentPg {
+    .leftSec {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 40px 15px;
+        background-color: clr(light, hover);
+
+        @include md {
+            gap: 50px;
+            padding: 60px 150px;
+        }
+
+        .logoSec {
+            a {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                color: clr(dark, main);
+
+                img {
+                    height: 30px;
+                }
+            }
+        }
+
+        .titleSec {
+
+            h6,
+            h1,
+            p {
+                margin: 0;
+            }
+        }
+
+        .paymentSec {
+            .borderCard {
+                border: 1px solid clr(dark, outline);
+                border-radius: 10px;
+                overflow: hidden;
+
+                .headSec {
+                    padding: 15px;
+                    border-bottom: 1px solid clr(dark, outline);
+
+                    h6 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+                        margin-bottom: 0;
+                    }
+
+                    p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .bodySec {
+                    padding: 15px;
+                    background-color: clr(light, main);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .togBox {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+                    padding: 15px;
+                    font-weight: 500;
+
+                    +li {
+                        border-top: 1px solid clr(dark, outline);
+                    }
+
+                    &:nth-child(2) {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    .rightSec {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 40px 15px;
+
+        @include md {
+            padding: 60px 150px;
+        }
+
+        .cardSec {
+            .style2 {
+                .inputOne {
+                    .inputBox {
+                        .form-control {
+                            border-radius: 6px 6px 0 0;
+                            border-bottom: none;
+                            padding-right: 120px;
+                        }
+
+                        .iconSec {
+                            display: flex;
+                            gap: 2px;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 10px;
+
+                            img {
+                                height: 16px;
+                            }
+                        }
+                    }
+                }
+
+                .inputTwo {
+                    display: flex;
+
+                    .inputBox {
+                        width: 50%;
+
+                        &:first-child {
+                            .form-control {
+                                border-radius: 0 0 0 6px;
+                            }
+                        }
+
+                        &:last-child {
+                            .form-control {
+                                border-radius: 0 0 6px 0;
+                                border-left: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .boxCheck {
+                .customCheckbox {
+                    margin-bottom: 0;
+
+                    h6 {
+                        margin-bottom: 0;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-weight: normal;
+                        margin-bottom: 0;
+                        color: clr(dark, hover);
+                    }
+                }
+            }
+        }
+    }
+}

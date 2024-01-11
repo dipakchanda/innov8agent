@@ -1,0 +1,119 @@
+.uploader {
+    .title {
+        h6 {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        text-align: center;
+        padding: 15px;
+        margin: 10px 0;
+        border: 1px solid #06c270;
+        border-radius: 6px;
+        cursor: pointer;
+
+        em {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            font-size: 1.5em;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #06c270;
+        }
+
+        p {
+            margin-bottom: 0;
+
+            span {
+                color: #06c270;
+                font-weight: 500;
+            }
+
+            small {
+                display: block;
+            }
+        }
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .progress-area {
+        .itemProgress {
+            .content {
+                .progress-bar {
+                    height: 6px;
+                    width: 100%;
+                    margin-bottom: 4px;
+                    background-color: #fff;
+                    border-radius: 30px;
+
+                    .progress {
+                        height: 100%;
+                        width: 0%;
+                        background: #06c270;
+                        border-radius: inherit;
+                    }
+                }
+            }
+        }
+    }
+
+    .uploaded-area {
+        max-height: 230px;
+        overflow-y: auto;
+
+        .itemQuee {
+            background-color: #ffffff;
+            border: 1px solid #c7c9d9;
+            border-radius: 4px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+
+            .content {
+                display: flex;
+                gap: 10px;
+
+                em {
+                    color: #28293d;
+                    font-size: 2em;
+                }
+
+                .details {
+                    .name {
+                        display: block;
+                        font-weight: 500;
+                        color: #28293d;
+                    }
+                }
+            }
+
+            .fa-check-circle {
+                color: #06c270;
+            }
+
+            + .itemQuee {
+                margin-top: 15px;
+            }
+        }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

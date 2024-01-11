@@ -1,0 +1,34 @@
+.bgImg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 4;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(clr(black, main), 0.3);
+        z-index: -1;
+    }
+
+    .sectionTitle {
+        color: clr(light, outline);
+
+        h1,
+        h3 {
+            color: inherit;
+        }
+
+        p {
+            color: inherit;
+        }
+
+        .btnSec {
+            margin-top: 24px;
+        }
+    }
+}

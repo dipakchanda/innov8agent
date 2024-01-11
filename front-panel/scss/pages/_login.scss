@@ -1,0 +1,104 @@
+// Login Page
+.loginPg {
+    &:before {
+        display: none;
+    }
+
+    .logoSec {
+        a {
+            display: inline-block;
+
+            img {
+                height: 45px;
+            }
+        }
+    }
+
+    .loginBox {
+        background-color: clr(light, outline);
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @include md {
+            padding: 50px 30px;
+            border-radius: 20px;
+            gap: 32px;
+        }
+
+        .logoIcon {
+            display: none;
+            text-align: center;
+
+            @include md {
+                display: block;
+            }
+
+            img {
+                height: 100px;
+            }
+        }
+
+        .titleSec {
+            .slogan {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                gap: 5px;
+
+                h6 {
+                    font-weight: normal;
+                    margin-bottom: 0;
+
+                    span {
+                        color: clr(primary, main);
+                        font-weight: 500;
+                    }
+                }
+
+                span {
+                    a {
+                        color: clr(primary, main);
+                        font-weight: 500;
+
+                        &:hover {
+                            color: clr(primary, hover);
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                margin: 15px 0 24px;
+            }
+
+            .btnList {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        }
+
+        form {
+            a {
+                color: clr(blue, main);
+                font-weight: 500;
+
+                &:hover {
+                    color: clr(blue, hover);
+                }
+            }
+
+            .btn {
+                width: 100%;
+
+                @include md {
+                    width: auto;
+                }
+            }
+        }
+    }
+}

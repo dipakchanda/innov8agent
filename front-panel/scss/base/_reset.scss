@@ -1,0 +1,113 @@
+// Reset
+* {
+    box-sizing: border-box;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: clr(dark, outline);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: clr(dark, focus);
+        border-radius: 10px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $body-font;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: clr(dark, hover);
+    background-color: clr(light, outline);
+    overflow-x: hidden;
+}
+
+a,
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+a {
+    text-transform: inherit;
+    text-decoration: none;
+    color: clr(primary, main);
+
+    &:hover,
+    &:focus {
+        color: clr(primary, hover);
+        text-decoration: none;
+        box-shadow: none;
+        outline: 0;
+    }
+}
+
+input,
+select {
+    height: auto;
+}
+
+select {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: clr(dark, main);
+}
+
+h1 {
+    @include headingOne;
+}
+
+h2 {
+    @include headingTwo;
+}
+
+h3 {
+    @include headingThree;
+}
+
+h4 {
+    @include headingFour;
+}
+
+h5 {
+    @include headingFive;
+}
+
+h6 {
+    @include headingSix;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+section {
+    position: relative;
+}

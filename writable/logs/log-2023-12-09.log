@@ -1,0 +1,220 @@
+CRITICAL - 2023-12-09 04:47:04 --> Call to a member function setFrom() on string
+in APPPATH/Controllers/IAhome.php on line 317.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 04:49:02 --> Undefined array key "access_token"
+in APPPATH/Controllers/IAhome.php on line 275.
+ 1 APPPATH/Controllers/IAhome.php(275): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 04:49:45 --> Call to a member function setFrom() on string
+in APPPATH/Controllers/IAhome.php on line 317.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 04:50:53 --> Undefined array key "access_token"
+in APPPATH/Controllers/IAhome.php on line 275.
+ 1 APPPATH/Controllers/IAhome.php(275): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 04:51:30 --> Call to a member function setFrom() on string
+in APPPATH/Controllers/IAhome.php on line 317.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:16:01 --> Call to undefined function App\Controllers\current_date()
+in APPPATH/Controllers/IAhome.php on line 331.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:16:29 --> Undefined array key "access_token"
+in APPPATH/Controllers/IAhome.php on line 276.
+ 1 APPPATH/Controllers/IAhome.php(276): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 11:47:30 --> Undefined array key 0
+in APPPATH/Helpers/my_helper.php on line 87.
+ 1 APPPATH/Helpers/my_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/IAhome.php(143): memberPayment()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->myaccount()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 14:59:41 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/IAlanding.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 15:17:56 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH/Config/Email.php on line 51.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(283): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(202): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(161): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(217): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Config/Services.php(230): config()
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email()
+10 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+11 SYSTEMPATH/Config/Services.php(226): CodeIgniter\Config\BaseService::getSharedInstance()
+12 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email()
+13 APPPATH/Controllers/IAlanding.php(16): CodeIgniter\Config\BaseService::__callStatic()
+14 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->index()
+15 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:32:13 --> Undefined variable $member_first
+in APPPATH/Controllers/IAlanding.php on line 56.
+ 1 APPPATH/Controllers/IAlanding.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:32:16 --> Undefined variable $member_first
+in APPPATH/Controllers/IAlanding.php on line 56.
+ 1 APPPATH/Controllers/IAlanding.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:32:17 --> Undefined variable $member_first
+in APPPATH/Controllers/IAlanding.php on line 56.
+ 1 APPPATH/Controllers/IAlanding.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:32:48 --> Undefined variable $member_first
+in APPPATH/Controllers/IAlanding.php on line 56.
+ 1 APPPATH/Controllers/IAlanding.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:32:56 --> Undefined variable $member_first
+in APPPATH/Controllers/IAlanding.php on line 56.
+ 1 APPPATH/Controllers/IAlanding.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:34:18 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:34:29 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:35:01 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:35:03 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:35:17 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:35:25 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:37:16 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 16:37:25 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 17:02:27 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 17:03:12 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 17:03:25 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 17:07:41 --> Call to a member function setTo() on string
+in APPPATH/Controllers/IAlanding.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 17:07:54 --> Call to a member function setTo() on null
+in APPPATH/Controllers/IAlanding.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAlanding->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 17:19:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 17:19:24 --> 220 smtp.gmail.com ESMTP l1-20020a2ea801000000b002cb2380239dsm520144ljq.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [13.50.212.130]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK l1-20020a2ea801000000b002cb2380239dsm520144ljq.20 - gsmtp
+
+to: 553-5.1.3 The recipient address <Innov8Agent> is not a valid RFC 5321 address.
+553-5.1.3 For more information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. l1-20020a2ea801000000b002cb2380239dsm520144ljq.20 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Innov8Agent> is not a valid RFC 5321 address.
+553-5.1.3 For more information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. l1-20020a2ea801000000b002cb2380239dsm520144ljq.20 - gsmtp
+
+quit: 221 2.0.0 closing connection l1-20020a2ea801000000b002cb2380239dsm520144ljq.20 - gsmtp
+

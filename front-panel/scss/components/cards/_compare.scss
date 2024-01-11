@@ -1,0 +1,23 @@
+.compareCardOne {
+    display: flex;
+    gap: 15px;
+
+    em {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 1.5em;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        color: clr(purple, main);
+        background-color: clr(purple, outline);
+    }
+
+    .details {
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

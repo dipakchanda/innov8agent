@@ -1,0 +1,26 @@
+// Hero Banner
+.heroBanner {
+    padding: 100px 0px 40px;
+
+    @include md {
+        padding: 150px 0 60px;
+    }
+
+    .sectionTitle {
+        p {
+            display: inline-block;
+            max-width: 890px;
+        }
+
+        .btnSec {
+            justify-content: center;
+
+            .btn {
+                @include md {
+                    max-width: 170px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

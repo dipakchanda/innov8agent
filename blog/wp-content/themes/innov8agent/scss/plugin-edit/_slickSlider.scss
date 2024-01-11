@@ -1,0 +1,81 @@
+// Dots
+@mixin slickDotOne {
+    margin-top: 15px;
+    position: relative;
+    top: unset;
+    bottom: unset;
+
+    li {
+        width: 10px;
+        height: 10px;
+        margin: 0 4px;
+
+        button {
+            width: 100%;
+            height: 100%;
+            background-color: clr(light, outline);
+            border-radius: 50%;
+
+            &:before {
+                display: none;
+            }
+        }
+
+        &.slick-active {
+            button {
+                background-color: clr(primary, main);
+            }
+        }
+    }
+}
+
+// Arrow
+@mixin slickArrowOne {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color: clr(dark, main);
+    background-color: clr(light, main);
+    z-index: 5;
+
+    @include md {
+        width: 40px;
+        height: 40px;
+    }
+
+    &:before {
+        font-family: "Font Awesome 6 Free";
+        font-size: 20px;
+        font-weight: 900;
+        color: inherit;
+    }
+
+    &.slick-prev {
+        left: 0;
+
+        @include md {
+            left: -20px;
+        }
+
+        &:before {
+            content: "\f104";
+        }
+    }
+
+    &.slick-next {
+        right: 0;
+
+        @include md {
+            right: -20px;
+        }
+
+        &:before {
+            content: "\f105";
+        }
+    }
+
+    &:hover {
+        color: clr(light, outline);
+        background-color: clr(primary, main);
+    }
+}

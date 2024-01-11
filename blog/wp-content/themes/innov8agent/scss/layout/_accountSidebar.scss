@@ -1,0 +1,91 @@
+.accountSidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include md {
+        gap: 32px;
+    }
+
+    .menuListOne {
+        gap: 0;
+        flex-direction: row;
+        overflow-x: auto;
+
+        @include md {
+            flex-direction: column;
+        }
+
+        li {
+            a {
+                font-weight: 500;
+                padding: 15px;
+                background-color: clr(light, outline);
+                min-width: max-content;
+
+                &:hover,
+                &.active {
+                    background-color: clr(light, hover);
+                }
+            }
+        }
+    }
+
+    .bgGraph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        padding: 24px;
+        background-color: clr(light, hover);
+        border-radius: 10px;
+
+        .title {
+            text-align: center;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .graph {
+            text-align: center;
+        }
+
+        .details {
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .logoutSec {
+        display: none;
+
+        @include md {
+            display: block;
+        }
+
+        img {
+            height: 60px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: clr(dark, main);
+            font-weight: 500;
+            padding: 15px 0;
+
+            &:hover,
+            &.active {
+                color: clr(primary, main);
+            }
+
+            em {
+                font-size: 1.5em;
+            }
+        }
+    }
+}

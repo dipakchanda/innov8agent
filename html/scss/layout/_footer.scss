@@ -1,0 +1,73 @@
+// Footer
+.mainFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    color: clr(light, outline);
+    background: linear-gradient(180deg, #28293d, #16171f);
+    padding: 60px 0 0;
+    position: relative;
+    z-index: 1;
+
+    .footerTop {
+        h6 {
+            color: clr(light, outline);
+            margin-bottom: 15px;
+        }
+
+        .menuListOne {
+            gap: 6px;
+
+            li {
+                a {
+                    color: clr(light, outline);
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: clr(primary, main);
+                    }
+                }
+            }
+
+            + h6 {
+                margin-top: 15px;
+            }
+        }
+
+        .socialList {
+            li {
+                a {
+                    color: clr(light, outline);
+                    background-color: transparent;
+                    border: 1px solid clr(light, outline);
+
+                    &:hover {
+                        color: clr(light, outline);
+                        background-color: clr(primary, main);
+                        border-color: clr(primary, main);
+                    }
+                }
+            }
+        }
+    }
+
+    .divider {
+        hr {
+            margin: 0;
+            border-color: clr(light, outline);
+            opacity: 0.1;
+        }
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .bgLogo {
+        img {
+            width: 100%;
+            opacity: 0.5;
+        }
+    }
+}

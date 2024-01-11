@@ -1,0 +1,52 @@
+.contactCardOne {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 24px;
+    border-radius: 6px;
+    color: clr(light, outline);
+    background-color: clr(primary, main);
+
+    em {
+        font-size: 2em;
+    }
+
+    h5 {
+        margin-bottom: 0;
+        color: inherit;
+    }
+}
+
+.contactCardTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 24px;
+    border-radius: 6px;
+    background-color: clr(light, outline);
+    border: 1px solid clr(dark, outline);
+
+    h6 {
+        position: relative;
+        padding-left: 42px;
+        margin-bottom: 0;
+
+        em {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            font-size: 1.5em;
+            border-radius: 4px;
+            color: clr(light, outline);
+            background-color: clr(primary, main);
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}

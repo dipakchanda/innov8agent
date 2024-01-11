@@ -1,0 +1,63 @@
+// Fonts
+$body-font: "Gotham";
+
+@mixin headingL {
+    font-size: 28px;
+
+    @include md {
+        font-size: 50px;
+    }
+}
+
+@mixin headingOne {
+    font-size: 28px;
+
+    @include md {
+        font-size: 40px;
+    }
+}
+
+@mixin headingTwo {
+    font-size: 24px;
+
+    @include md {
+        font-size: 32px;
+    }
+}
+
+@mixin headingThree {
+    font-size: 20px;
+
+    @include md {
+        font-size: 28px;
+    }
+}
+
+@mixin headingFour {
+    font-size: 20px;
+
+    @include md {
+        font-size: 24px;
+    }
+}
+
+@mixin headingFive {
+    font-size: 18px;
+
+    @include md {
+        font-size: 20px;
+    }
+}
+
+@mixin headingSix {
+    font-size: 16px;
+}
+
+@mixin paraL {
+    font-size: 16px;
+    line-height: 1.5;
+
+    @include md {
+        font-size: 18px;
+    }
+}

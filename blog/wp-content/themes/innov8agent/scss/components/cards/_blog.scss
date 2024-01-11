@@ -1,0 +1,36 @@
+// Blog Card One
+.blogCardOne {
+    display: block;
+    background-color: clr(light, outline);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.6s all;
+    box-shadow: 0px 4px 20px rgba(clr(dark, hover), 0.2);
+
+    img {
+        width: 100%;
+    }
+
+    .detailsSec {
+        padding: 15px;
+
+        span {
+            font-size: 10px;
+            font-weight: bold;
+            display: inline-flex;
+            padding: 2px 15px;
+            border-radius: 10px;
+            color: clr(secondary, main);
+            background-color: clr(secondary, outline);
+        }
+
+        h5 {
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 20px rgba(clr(dark, hover), 0.5);
+    }
+}

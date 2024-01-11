@@ -1,0 +1,68 @@
+// About
+.aboutTwo {
+    background: linear-gradient(0deg, clr(dark, main), #16171f);
+
+    &:before {
+        display: none;
+    }
+
+    .sectionTitle {
+        h6 {
+            justify-content: center;
+        }
+    }
+}
+
+// Table
+.tablePrice {
+    .table {
+        thead {
+            tr {
+                vertical-align: middle;
+
+                th {
+                    text-align: center;
+
+                    h6 {
+                        margin-bottom: 0;
+                    }
+
+                    .priceTag {
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: clr(primary, main);
+
+                        span {
+                            font-size: 12px;
+                            color: clr(dark, focus);
+                        }
+                    }
+
+                    small {
+                        color: clr(dark, focus);
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                vertical-align: middle;
+                th,
+                td {
+                    padding: 10px 15px;
+                }
+
+                td {
+                    text-align: center;
+                }
+                &:nth-child(odd) {
+                    th,
+                    td {
+                        background-color: clr(blue, focus);
+                    }
+                }
+            }
+        }
+    }
+}

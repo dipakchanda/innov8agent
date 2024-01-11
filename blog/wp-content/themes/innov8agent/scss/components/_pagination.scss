@@ -1,0 +1,42 @@
+// Pagination
+.paginationSec {
+    nav {
+        .pagination {
+            .page-item {
+                .page-link {
+                    font-size: 1em;
+                    font-weight: 500;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    color: clr(dark, main);
+                    background-color: transparent;
+                    border: none;
+                    padding: 0 8px;
+                    &:hover,
+                    &.active {
+                        color: clr(light, outline);
+                        background-color: clr(primary, main);
+                    }
+
+                    @include md {
+                        width: 46px;
+                        height: 46px;
+                    }
+                }
+
+                &:first-child,
+                &:last-child {
+                    .page-link {
+                        width: auto;
+                        border-radius: 4px;
+                        gap: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

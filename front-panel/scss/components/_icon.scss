@@ -1,0 +1,29 @@
+.avatar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    img {
+        width: 40px;
+        height: 40px;
+        border: 3px solid clr(primary, main);
+        border-radius: 50%;
+
+        @include md {
+            width: 56px;
+            height: 56px;
+        }
+    }
+
+    .name {
+        h6 {
+            margin-bottom: 0;
+            color: clr(dark, main);
+        }
+
+        span {
+            display: block;
+        }
+    }
+}

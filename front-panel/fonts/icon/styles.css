@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?goimg7');
+  src:  url('fonts/icomoon.eot?goimg7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?goimg7') format('truetype'),
+    url('fonts/icomoon.woff?goimg7') format('woff'),
+    url('fonts/icomoon.svg?goimg7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angleDown:before {
+  content: "\e900";
+}
+.icon-angleLeft:before {
+  content: "\e901";
+}
+.icon-angleRight:before {
+  content: "\e902";
+}
+.icon-angleUp:before {
+  content: "\e903";
+}
+.icon-arrowBottomLeft:before {
+  content: "\e904";
+}
+.icon-arrowBottomRight:before {
+  content: "\e905";
+}
+.icon-arrowDown:before {
+  content: "\e906";
+}
+.icon-arrowLeft:before {
+  content: "\e907";
+}
+.icon-arrowRight:before {
+  content: "\e908";
+}
+.icon-arrowTopLeft:before {
+  content: "\e909";
+}
+.icon-arrowTopRight:before {
+  content: "\e90a";
+}
+.icon-arrowUp:before {
+  content: "\e90b";
+}
+.icon-bar:before {
+  content: "\e90c";
+}
+.icon-bars:before {
+  content: "\e90d";
+}
+.icon-blog:before {
+  content: "\e90e";
+}
+.icon-book:before {
+  content: "\e90f";
+}
+.icon-bookmark:before {
+  content: "\e910";
+}
+.icon-books:before {
+  content: "\e911";
+}
+.icon-calender:before {
+  content: "\e912";
+}
+.icon-call:before {
+  content: "\e913";
+}
+.icon-certified:before {
+  content: "\e914";
+}
+.icon-chart:before {
+  content: "\e915";
+}
+.icon-chat:before {
+  content: "\e916";
+}
+.icon-chatgpt:before {
+  content: "\e917";
+}
+.icon-chats:before {
+  content: "\e918";
+}
+.icon-check:before {
+  content: "\e919";
+}
+.icon-circle:before {
+  content: "\e91a";
+}
+.icon-clock:before {
+  content: "\e91b";
+}
+.icon-close:before {
+  content: "\e91c";
+}
+.icon-copy:before {
+  content: "\e91d";
+}
+.icon-dashboard:before {
+  content: "\e91e";
+}
+.icon-ecommerce:before {
+  content: "\e91f";
+}
+.icon-edit:before {
+  content: "\e920";
+}
+.icon-email:before {
+  content: "\e921";
+}
+.icon-eye:before {
+  content: "\e922";
+}
+.icon-eyeClose:before {
+  content: "\e923";
+}
+.icon-fileDocument:before {
+  content: "\e924";
+}
+.icon-fingerPrint:before {
+  content: "\e925";
+}
+.icon-fullScreen:before {
+  content: "\e926";
+}
+.icon-globe:before {
+  content: "\e927";
+}
+.icon-globeSearch:before {
+  content: "\e928";
+}
+.icon-info:before {
+  content: "\e929";
+}
+.icon-key:before {
+  content: "\e92a";
+}
+.icon-link:before {
+  content: "\e92b";
+}
+.icon-lock:before {
+  content: "\e92c";
+}
+.icon-lockPassword:before {
+  content: "\e92d";
+}
+.icon-logout:before {
+  content: "\e92e";
+}
+.icon-mapMarker:before {
+  content: "\e92f";
+}
+.icon-mic:before {
+  content: "\e930";
+}
+.icon-minus:before {
+  content: "\e931";
+}
+.icon-mute:before {
+  content: "\e932";
+}
+.icon-password:before {
+  content: "\e933";
+}
+.icon-pause:before {
+  content: "\e934";
+}
+.icon-pencil:before {
+  content: "\e935";
+}
+.icon-play:before {
+  content: "\e936";
+}
+.icon-playCircle:before {
+  content: "\e937";
+}
+.icon-plus:before {
+  content: "\e938";
+}
+.icon-printer:before {
+  content: "\e939";
+}
+.icon-reload:before {
+  content: "\e93a";
+}
+.icon-screen:before {
+  content: "\e93b";
+}
+.icon-screenCast:before {
+  content: "\e93c";
+}
+.icon-search:before {
+  content: "\e93d";
+}
+.icon-setting:before {
+  content: "\e93e";
+}
+.icon-thumbsUp:before {
+  content: "\e93f";
+}
+.icon-trash:before {
+  content: "\e940";
+}
+.icon-upload:before {
+  content: "\e941";
+}
+.icon-user:before {
+  content: "\e942";
+}
+.icon-volumeOne:before {
+  content: "\e943";
+}
+.icon-volumeThree:before {
+  content: "\e944";
+}
+.icon-volumeTwo:before {
+  content: "\e945";
+}
+.icon-zap:before {
+  content: "\e946";
+}

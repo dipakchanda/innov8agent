@@ -1,0 +1,276 @@
+CRITICAL - 2023-11-25 07:01:45 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 07:03:11 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 09:58:47 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 09:59:20 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 09:59:25 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 09:59:34 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 10:46:24 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 11:03:32 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:08:06 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:23:18 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:45:16 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-25 12:46:14 --> mysqli_sql_exception: Table 'innov8agent.innova_prompt_question' doesn't exist in /var/www/innov8agent.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/innov8agent.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/innov8agent.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/innov8agent.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/innov8agent.com/app/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/innov8agent.com/app/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+#5 /var/www/innov8agent.com/system/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+#6 /var/www/innov8agent.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/innov8agent.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/innov8agent.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-25 12:46:14 --> Table 'innov8agent.innova_prompt_question' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-25 12:46:18 --> mysqli_sql_exception: Table 'innov8agent.innova_prompt_question' doesn't exist in /var/www/innov8agent.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/innov8agent.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/innov8agent.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/innov8agent.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/innov8agent.com/app/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/innov8agent.com/app/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+#5 /var/www/innov8agent.com/system/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+#6 /var/www/innov8agent.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/innov8agent.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/innov8agent.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-25 12:46:18 --> Table 'innov8agent.innova_prompt_question' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:46:21 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-25 12:46:25 --> mysqli_sql_exception: Table 'innov8agent.innova_prompt_question' doesn't exist in /var/www/innov8agent.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/innov8agent.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/innov8agent.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/innov8agent.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/innov8agent.com/app/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/innov8agent.com/app/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+#5 /var/www/innov8agent.com/system/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+#6 /var/www/innov8agent.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/innov8agent.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/innov8agent.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-25 12:46:25 --> Table 'innov8agent.innova_prompt_question' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:46:34 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:47:59 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-25 12:48:03 --> mysqli_sql_exception: Table 'innov8agent.innova_prompt_question' doesn't exist in /var/www/innov8agent.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/innov8agent.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/innov8agent.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/innov8agent.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/innov8agent.com/app/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/innov8agent.com/app/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+#5 /var/www/innov8agent.com/system/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+#6 /var/www/innov8agent.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/innov8agent.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/innov8agent.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-25 12:48:03 --> Table 'innov8agent.innova_prompt_question' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-25 12:48:38 --> mysqli_sql_exception: Table 'innov8agent.innova_prompt_question' doesn't exist in /var/www/innov8agent.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/innov8agent.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/innov8agent.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/innov8agent.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/innov8agent.com/app/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/innov8agent.com/app/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+#5 /var/www/innov8agent.com/system/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+#6 /var/www/innov8agent.com/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/innov8agent.com/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/innov8agent.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-25 12:48:38 --> Table 'innov8agent.innova_prompt_question' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/IAprojetcsmodel.php(74): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/IAprojetcs.php(133): App\Models\IAprojetcsmodel->allpromptquestion()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->promptQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:48:41 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-25 12:48:57 --> Undefined array key 0
+in APPPATH/Views/admin-panel/category-update.php on line 105.
+ 1 APPPATH/Views/admin-panel/category-update.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/innov8agent.com/app/Views/admin-panel/category-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/IAprojetcs.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAprojetcs->categoryUpdate()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

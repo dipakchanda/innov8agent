@@ -1,0 +1,60 @@
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([_0-9a-zA-Z-]+/)?innov8-admin/(.*) /blog/wp-admin/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?blog-admin$ /blog/wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?blog-admin/(.*) /blog/wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /blog/wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?register$ /blog/wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/3b8403f15d/(.*) /blog/wp-content/plugins/add-to-any/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/8963d19897/(.*) /blog/wp-content/plugins/advanced-custom-fields/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/3e9ee27a62/(.*) /blog/wp-content/plugins/disable-comments/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/23fdd05d85/(.*) /blog/wp-content/plugins/disable-gutenberg/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/8707efa35f/(.*) /blog/wp-content/plugins/duplicate-page/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d0f4711431/(.*) /blog/wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/389e39d1f3/(.*) /blog/wp-content/plugins/page-scroll-to-id/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/(.*) /blog/wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/f9841dd575/design.css$ /blog/wp-content/themes/innov8agent/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/f9841dd575/(.*) /blog/wp-content/themes/innov8agent/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/(.*) /blog/wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /blog/wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /blog/wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /blog/wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /blog/wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /blog/author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES
+# BEGIN HMWP_VULNERABILITY
+<IfModule mod_headers.c>
+Header always unset x-powered-by
+Header always unset server
+ServerSignature Off
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=15768000;includeSubdomains"
+Header set Content-Security-Policy "object-src 'none'"
+Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+
+# END HMWP_VULNERABILITY
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress

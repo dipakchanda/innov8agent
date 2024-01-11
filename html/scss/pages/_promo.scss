@@ -1,0 +1,118 @@
+// Hero Banner
+.heroPromo {
+    padding-bottom: 0;
+
+    .imgSec {
+        max-width: 940px;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+        background-color: clr(light, outline);
+
+        @include md {
+            padding: 20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// Trial
+.trialOne {
+    &:before {
+        display: none;
+    }
+
+    .logoSec {
+        img {
+            height: 60px;
+        }
+    }
+
+    .sectionTitle {
+        h1 {
+            font-size: 32px;
+            color: clr(primary, main);
+
+            @include md {
+                font-size: 100px;
+            }
+        }
+    }
+
+    .freeService {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+
+            li {
+                @include paraL;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: clr(light, outline);
+
+                em {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 3px;
+                    color: clr(light, outline);
+                    background-color: clr(primary, main);
+
+                    @include md {
+                        width: 28px;
+                        height: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btnSec {
+        justify-content: center;
+
+        .btn {
+            @include paraL;
+            width: 100%;
+            max-width: 320px;
+
+            em {
+                @include md {
+                    width: 54px;
+                    height: 54px;
+                }
+            }
+        }
+    }
+
+    .imgSec {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// Brand
+.brandPromo {
+    h6 {
+        margin-bottom: 24px;
+
+        @include md {
+            margin-bottom: 32px;
+        }
+    }
+
+    .brandSlider {
+        img {
+            opacity: 0.5;
+        }
+    }
+}

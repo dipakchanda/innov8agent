@@ -1,0 +1,51 @@
+// Responsive Navbar
+.mobileSidebar {
+    .offcanvas-header {
+        padding: 15px;
+        border-bottom: 1px solid clr(dark, outline);
+
+        .logo {
+            img {
+                height: 45px;
+            }
+        }
+
+        .closeBtn {
+            background-color: transparent;
+            color: clr(dark, main);
+            font-size: 1.5em;
+            cursor: pointer;
+            padding: 0;
+            border: 0;
+            transition: all ease 0.5s;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .offcanvas-body {
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .menuListOne {
+            li {
+                a {
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .offcanvasBtn {
+            padding: 24px 0;
+            border-top: 1px solid clr(dark, outline);
+
+            .btnIcon {
+                width: 100%;
+            }
+        }
+    }
+}

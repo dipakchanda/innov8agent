@@ -1,0 +1,8 @@
+CRITICAL - 2023-12-20 14:52:22 --> Undefined array key 0
+in APPPATH/Models/IAtoolsagentsmodel.php on line 32.
+ 1 APPPATH/Models/IAtoolsagentsmodel.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/IAtoolsagents.php(86): App\Models\IAtoolsagentsmodel->singleCategory()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAtoolsagents->singleTools()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

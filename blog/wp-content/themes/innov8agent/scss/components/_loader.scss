@@ -1,0 +1,58 @@
+// Loader
+.loaderWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: clr(light, focus);
+
+    .loader {
+        width: 48px;
+        height: 48px;
+        border: 3px dotted clr(primary, main);
+        border-style: solid solid dotted dotted;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 9;
+        transform: translateX(-50%) translateY(-50%);
+        animation: rotation 2s linear infinite;
+
+        &:after {
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 3px dotted clr(secondary, main);
+            border-style: solid solid dotted;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            animation: rotationBack 1s linear infinite;
+            transform-origin: center center;
+        }
+    }
+}
+
+// After Loaded Loader
+.loaded {
+    .loader {
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+
+    .loaderWrapper {
+        visibility: hidden;
+        transform: translateY(-100%);
+        transition: all 0.3s ease-out;
+    }
+}

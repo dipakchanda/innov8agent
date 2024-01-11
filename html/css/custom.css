@@ -1,0 +1,55 @@
+.paginationSec nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.paginationSec nav ul li a,
+.paginationSec nav ul li span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #28293d;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.paginationSec nav ul li a:hover,
+.paginationSec nav ul li a.active,
+.paginationSec nav ul li span:hover,
+.paginationSec nav ul li span.active {
+    color: #ffffff;
+    background-color: #fd9a03;
+}
+
+.paginationSec nav ul li:first-child a,
+.paginationSec nav ul li:last-child a,
+.paginationSec nav ul li:first-child span,
+.paginationSec nav ul li:last-child span {
+    gap: 5px;
+}
+.blogDetailsOne .rightSec #conclusion .shortcode {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.error-msg { color:#FF0000;}
+.error { color:#FF0000;}
+
+@media (min-width: 768px) {
+    .paginationSec nav ul li a,
+    .paginationSec nav ul li span {
+        min-width: 46px;
+        height: 46px;
+    }
+}

@@ -1,0 +1,58 @@
+.menuListOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: clr(dark, main);
+
+            &:hover,
+            &.active {
+                color: clr(primary, main);
+            }
+
+            em {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    &.numberList {
+        list-style-type: decimal;
+        padding-left: 20px;
+    }
+
+    &.dotList {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+}
+
+.socialList {
+    display: flex;
+    gap: 14px;
+
+    li {
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: clr(dark, hover);
+            background-color: transparent;
+            border: 1px solid clr(dark, hover);
+
+            &:hover {
+                color: clr(light, outline);
+                background-color: clr(primary, main);
+                border-color: clr(primary, main);
+            }
+        }
+    }
+}

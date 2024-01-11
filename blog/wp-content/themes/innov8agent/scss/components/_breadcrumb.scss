@@ -1,0 +1,72 @@
+// Breadcrumb
+.breadcrumb-wrap {
+    padding: 3em 0;
+    background-color: clr(dark, outline);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: clr(dark, main);
+        z-index: -1;
+    }
+
+    .breadcrumb-content {
+        text-align: center;
+
+        h2 {
+            margin: 0;
+            color: clr(light, outline);
+        }
+
+        .breadcrumb-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            li {
+                position: relative;
+                color: clr(light, hover);
+                font-weight: 500;
+                text-transform: capitalize;
+
+                a {
+                    display: inline-block;
+                    position: relative;
+                    color: clr(light, outline);
+                    transition: 0.3s;
+                }
+
+                + li {
+                    padding-left: 15px;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        height: 17px;
+                        width: 2px;
+                        background-color: clr(light, outline);
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+    }
+
+    @include md {
+        padding: 5em 0;
+    }
+}

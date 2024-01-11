@@ -1,0 +1,90 @@
+@media (min-width:992px) and (max-width:1269px) {
+   
+    .header {
+        padding-top: 0
+    }
+    .logo {max-width: 170px }
+    header.sticky .logo {max-width: 150px    }
+   }
+   
+
+@media (min-width:768px) and (max-width:991px) {
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+    h3 {
+        font-size: 20px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h6 {
+        font-size: 12px
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: inherit
+    }
+
+    p,
+    ul li,
+    ol li {
+        font-size: 14px;        line-height: 26px    }
+
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+    h3 {
+        font-size: 20px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h6 {
+        font-size: 12px
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 { line-height: inherit    }
+
+    p,
+    ul li,
+    ol li {font-size: 14px; line-height: 26px}
+    
+    .splash-section .box-sms{ padding: 15px;}
+   
+}

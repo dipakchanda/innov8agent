@@ -1,0 +1,87 @@
+// Hero Banner
+.herocompare {
+    padding-top: 110px;
+
+    @include md {
+        padding-top: 140px;
+    }
+
+    .sectionTitle {
+        .compareLogo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 32px;
+
+            img {
+                height: 40px;
+            }
+            span {
+                font-weight: 500;
+            }
+        }
+
+        .btnSec {
+            justify-content: center;
+        }
+    }
+
+    .videoSec {
+        .video-js {
+            width: 100%;
+            max-height: 200px;
+
+            @include md {
+                max-height: 400px;
+            }
+        }
+    }
+}
+
+// Compare One
+.compareOne {
+    .sectionTitle {
+        h6 {
+            justify-content: center;
+        }
+    }
+}
+
+// Compare Two
+.compareTwo {
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        background-color: clr(light, outline);
+        border: 1px solid clr(dark, outline);
+        border-radius: 10px;
+        padding: 24px;
+        box-shadow: 0px 4px 20px rgba(clr(dark, hover), 0.2);
+
+        @include md {
+            border-radius: 24px;
+            padding: 50px;
+        }
+
+        h3 {
+            margin-bottom: 0;
+        }
+
+        div {
+            *:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+
+            @include md {
+                height: 400px;
+            }
+        }
+    }
+}

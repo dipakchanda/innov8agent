@@ -1,0 +1,16 @@
+CRITICAL - 2023-12-15 18:56:35 --> Undefined array key "old_user_image"
+in APPPATH/Models/IAhomemodel.php on line 224.
+ 1 APPPATH/Models/IAhomemodel.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/IAhome.php(177): App\Models\IAhomemodel->profileUpdate()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->myaccount()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 18:57:25 --> Undefined array key "old_user_image"
+in APPPATH/Models/IAhomemodel.php on line 224.
+ 1 APPPATH/Models/IAhomemodel.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/IAhome.php(177): App\Models\IAhomemodel->profileUpdate()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->myaccount()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

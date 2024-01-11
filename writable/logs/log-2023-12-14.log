@@ -1,0 +1,101 @@
+CRITICAL - 2023-12-14 11:19:18 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:20:12 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:21:16 --> syntax error, unexpected token "use"
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:22:39 --> Cannot use Facebook\Facebook as Facebook because the name is already in use
+in APPPATH/Controllers/IAhome.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 11:32:56 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:34:12 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:44:51 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:48:25 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:51:28 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:52:51 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:56:07 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:56:11 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:56:18 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:56:55 --> Class "Facebook\Facebook" not found
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->facebook()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:57:29 --> syntax error, unexpected token "use"
+in APPPATH/Controllers/IAhome.php on line 662.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:13:26 --> Undefined array key 0
+in APPPATH/Helpers/my_helper.php on line 87.
+ 1 APPPATH/Helpers/my_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/IAhome.php(148): memberPayment()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->myaccount()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

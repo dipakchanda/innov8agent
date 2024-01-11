@@ -1,0 +1,171 @@
+.paginationSec nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.paginationSec nav ul li a,
+.paginationSec nav ul li span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #28293d;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.paginationSec nav ul li a:hover,
+.paginationSec nav ul li a.active,
+.paginationSec nav ul li span:hover,
+.paginationSec nav ul li span.active {
+    color: #ffffff;
+    background-color: #fd9a03;
+}
+
+.paginationSec nav ul li:first-child a,
+.paginationSec nav ul li:last-child a,
+.paginationSec nav ul li:first-child span,
+.paginationSec nav ul li:last-child span {
+    gap: 5px;
+}
+.blogDetailsOne .rightSec #conclusion .shortcode {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.error-msg {
+    color: #ff0000;
+}
+.error {
+    color: #ff0000;
+}
+
+.px-faq {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.accountOne .contentSec .profileImg img {
+    object-fit: cover;
+    object-position: center;
+}
+.accountOne .contentSec .profileImg .uploadBtn {
+    position: relative;
+}
+.accountOne .contentSec .profileImg .uploadBtn input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.accountOne .contentSec .profileImg .uploadBtn span {
+    font-weight: bold;
+    padding: 6px 12px;
+    color: #28293d;
+    border: 1px solid #28293d;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.fileUploader h6,
+.fileUploader p {
+    margin-bottom: 0;
+}
+.fileUploader .imgUploaer {
+    position: relative;
+    z-index: 4;
+    margin-top: 12px;
+}
+.fileUploader .imgUploaer input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 7;
+}
+.fileUploader .imgUploaer .boxSec {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #06c270;
+    border-radius: 6px;
+    position: relative;
+}
+.fileUploader .imgUploaer em {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #06c270;
+}
+.fileUploader .imgUploaer p {
+    margin-top: 15px;
+}
+.fileUploader .imgUploaer p span {
+    color: #06c270;
+    font-weight: 500;
+}
+.fileUploader .imgUploaer p small {
+    display: block;
+}
+.fileUploader .imgUploaer .btn {
+    z-index: -1;
+}
+.fileUploader .imgSec {
+    position: relative;
+    border-radius: 4px;
+    /* max-height: 200px;
+    overflow: hidden; */
+    margin-top: 12px;
+}
+.fileUploader .imgSec img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.faqItem {
+    background-color: transparent;
+}
+
+.testimonialTwo .testimonialCardOne {
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+.priceCardOne .detailsSec {
+    min-height: 550px;
+}
+
+.tooltip {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+    .paginationSec nav ul li a,
+    .paginationSec nav ul li span {
+        min-width: 46px;
+        height: 46px;
+    }
+}

@@ -1,0 +1,28 @@
+// Gap
+.gap-y1 {
+    gap: 15px 0;
+
+    @include md {
+        gap: 24px 0;
+    }
+}
+
+.gap-y2 {
+    gap: 24px 0;
+
+    @include md {
+        gap: 32px 0;
+    }
+}
+
+// Padding
+.py-40 {
+    padding: 40px 0;
+}
+.py-60 {
+    padding: 40px 0;
+
+    @include md {
+        padding: 60px 0;
+    }
+}

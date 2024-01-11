@@ -1,0 +1,89 @@
+/*------------------------------
+Main style sheet
+Created For : Webgrity 
+------------------------------*/
+/* Fonts */
+
+  @font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* -- CSS Reset -- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;  padding: 0;  border: 0;  font-size: 100%;  font: inherit;  vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img {  display: block;}
+body {  line-height: 1;  overflow-x:hidden;}
+/*ol, ul {
+    list-style: none;
+}*/
+blockquote, q {  quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {  content: '';  content: none;}
+table {  border-collapse: collapse;  border-spacing: 0;}
+label span {  color: #F00;}
+/* -- End Reset -- */
+
+/* -- General Styles -- */
+.aligncenter {  display: block;  margin-left: auto;  margin-right: auto;}
+img.alignleft {  float: left;  max-width: 270px;  margin: 15px 30px 15px 0;}
+img.alignright {  float: right;  max-width: 270px;  margin: 15px 0 15px 30px;}
+img.aligncenter {  margin: 15px auto;  float: none;}
+img.alignnone {  margin: 15px 0;  float: none;}
+ul {  list-style: none;  padding-left: 20px;  margin-bottom: 15px;}
+ol {  padding-left: 20px;}
+ul li, ol li {  position: relative;  line-height: 26px;  font-weight: 500;}
+ul li strong, ol li strong {  font-weight: 600;}
+ul li:before {  content: '\f111';  font-family: FontAwesome;  font-size: 7px;  position: absolute;  left: -10px;  color: #0856a7;}
+ul li ul li:before {  font-family: "FontAwesome";  content: '\f111';  margin-right: 10px;  position: absolute;  left: -10px;  top: 0px;  font-size: 8px;  color: #0856a7;}
+header ul li:before {  content: '';}
+h1, h2, h3, h4, h5, h6 {  margin-bottom: 1rem;}
+h1 {  font-size: 56px;}
+h2 {  font-size: 44px;}
+h3 {  font-size: 36px;}
+h4 {  font-size: 24px;}
+h5 {  font-size: 18px;}
+h6 {  font-size: 14px;}
+h1, h2, h3, h4, h5, h6 {  font-family: 'Gotham';}
+p, form {  font-family: 'Gotham';}
+p {  margin-bottom: 1rem;}
+
+
+
+/* Link Style */
+a {  color: #0856a7;  text-decoration: none;}
+a:hover {  color: #000;  text-decoration: underline;  transition: all 0.4s ease 0s;}
+.form-control:focus, input:focus, textarea:focus {  border-color: #0856a7;  box-shadow: none;}
+body {  font-family:'Gotham';  font-size: 14px;  color: #000000;  font-weight: 400;  line-height: 26px;  background-color: #ffffff;  -webkit-font-smoothing: antialiased;  -moz-font-smoothing: antialiased;}
+p {  font-family:'Gotham';  font-size: 14px;  color: #000000;  font-weight: 500;  line-height: 20px;}
+p strong, strong {  color: #000000;  font-weight: 600;}
+.container {  max-width: 1080px;}
+.theme-btn {  padding: 8px 12px;  background: #0856a7;  color: #fff;  border-radius: 4px;  line-height: initial;  font-size: 15px;  font-weight: 500;  text-transform: none;  text-decoration: none;  display: inline-block;  text-align: center; text-transform: uppercase;  font-family:'Gotham';}
+.theme-btn:hover {  background-color: #042242;  color: #fff;  text-decoration: none;}
+
+/* Splash-section */
+.splash-section{  background-image: url(../images/Splash_soon.jpg);  background-size: cover;}
+.splash-section .navbar-brand-logol{  display: flex;  flex-direction: column;  align-items: center; max-width: 600px; margin: auto;}
+.splash-section .navbar-brand-logol h3{font-size: 20px; color: #fff; text-shadow: 2px 4px 1px black;}
+.splash-section  .box-sms{text-align: right; max-width: 400px; margin-left: auto; padding: 55px 0 220px;}
+.splash-section  .box-sms p:first-child{font-style: italic;}
+.splash-section  .box-sms p{ font-size: 22px; color: #fff; line-height: 1.5;text-shadow: 2px 4px 1px black;}
+.splash-section h2{text-align: center; font-style: italic; color: #fff;  text-shadow: 2px 4px 1px black; padding-bottom: 40px;    font-size: 34px;}
+
+/* Modal */
+.modal-splas .modal-xxl {  max-width: 730px;}
+.modal-splas .modal-header{border-bottom: none;}
+@media (min-width:768px) {
+  .modal-splas .modal-title{padding-left: 140px;}
+  .modal-splas .modal-body{padding: 0 65px 25px;}
+}
+.modal-splas .modal-content{border-radius: 0;}
+
+.modal-splas .modal-title{     color: #000;  font-size: 20px;  font-weight: 500;}
+.modal-splas .modal-title span{color:#ef2b30;}

@@ -1,0 +1,397 @@
+// Hero Banner
+.heroHome {
+    .sectionTitle {
+        h1 {
+            span {
+                color: clr(light, outline);
+                line-height: 1;
+                display: block;
+
+                &:nth-child(1) {
+                    opacity: 0.6;
+                    font-size: 28px;
+
+                    @include md {
+                        font-size: 60px;
+                    }
+                }
+
+                &:nth-child(2) {
+                    opacity: 0.8;
+                    font-size: 30px;
+
+                    @include md {
+                        font-size: 80px;
+                    }
+                }
+
+                &:nth-child(3) {
+                    font-size: 32px;
+
+                    @include md {
+                        font-size: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Service Highlight One
+.serviceOne {
+    .sectionTitle {
+        .imgSec {
+            @include md {
+                text-align: right;
+            }
+
+            img {
+                height: 60px;
+
+                @include md {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    .bgBox {
+        padding: 10px;
+        padding-bottom: 0;
+        background-color: clr(primary, main);
+        background: linear-gradient(clr(primary, main), clr(light, outline));
+        border-radius: 10px 10px 0 0;
+
+        @include md {
+            padding: 20px;
+            padding-bottom: 0;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .leftSec {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        .rightSec {
+            .imgSec {
+                background-color: clr(light, outline);
+                padding: 0;
+                border-radius: 10px;
+                overflow: hidden;
+
+                @include md {
+                    padding: 20px;
+                    padding-bottom: 0;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// Service Highlights Two
+.serviceTwo {
+    &:before {
+        display: none;
+    }
+
+    .brandSec {
+        .imgSec {
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            background-color: clr(light, outline);
+
+            @include md {
+                padding: 20px;
+                border-radius: 20px 20px 0 0;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .bgBox {
+            background: linear-gradient(45deg, clr(primary, main), clr(primary, hover));
+            border-radius: 0 0 10px 10px;
+            padding: 30px 15px;
+
+            @include md {
+                border-radius: 0 0 20px 20px;
+                padding: 50px;
+            }
+
+            h6 {
+                margin-bottom: 24px;
+
+                @include md {
+                    margin-bottom: 32px;
+                }
+            }
+
+            .brandSlider {
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    .serviceSec {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .sectionTitle {
+            h1 {
+                color: clr(light, outline);
+            }
+
+            p {
+                color: clr(light, outline);
+            }
+        }
+
+        .serviceSliderOne {
+            margin-bottom: 0;
+
+            .slick-dots {
+                @include slickDotOne;
+            }
+
+            .serviceCardTwo {
+                margin: 0 12px;
+            }
+        }
+    }
+}
+
+// Success Stories
+.successOne {
+    .sectionTitle {
+        .btnSec {
+            .btn {
+                width: 100%;
+
+                @include md {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .imgSec {
+        img {
+            width: 100%;
+        }
+    }
+
+    .detailsSec {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .btnSec {
+            margin-top: 24px;
+        }
+    }
+}
+
+// About
+.aboutOne {
+    &:before {
+        display: none;
+    }
+
+    .imgSec {
+        img {
+            width: 100%;
+        }
+
+        &.rounded {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+
+    .videoSec {
+        .video-js {
+            width: 100%;
+            max-height: 200px;
+
+            @include md {
+                max-height: 400px;
+            }
+        }
+    }
+}
+
+// Testimonial
+.testimonialOne {
+    background: linear-gradient(45deg, clr(primary, main), clr(primary, hover));
+
+    .sectionTitle {
+        position: relative;
+        padding-top: 40px;
+        color: clr(light, outline);
+
+        img {
+            position: absolute;
+            top: 0;
+        }
+
+        h6 {
+            color: inherit;
+        }
+
+        h1 {
+            color: inherit;
+
+            span {
+                color: clr(dark, main);
+            }
+        }
+
+        p {
+            color: clr(dark, main);
+        }
+    }
+
+    .sliderSec {
+        display: flex;
+        gap: 5px;
+        max-height: 350px;
+        overflow: hidden;
+
+        @include md {
+            gap: 15px;
+            max-height: 500px;
+        }
+
+        > div {
+            width: 50%;
+        }
+
+        .testimonialList {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            @include md {
+                gap: 15px;
+            }
+        }
+
+        .boxOne {
+            .testimonialList {
+                animation: slideUp 100s linear infinite;
+            }
+        }
+
+        .boxTwo {
+            .testimonialList {
+                animation: slideDown 100s linear infinite;
+            }
+        }
+    }
+}
+
+// Price
+.priceOne {
+    &:before {
+        display: none;
+    }
+
+    .sectionTitle {
+        max-width: 760px;
+        display: inline-block;
+        color: clr(dark, main);
+
+        h6 {
+            justify-content: center;
+        }
+
+        p {
+            max-width: 535px;
+
+            margin: {
+                left: auto;
+                right: auto;
+            }
+        }
+
+        .planSwitch {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+    }
+
+    .priceCardOne {
+        height: 100%;
+    }
+
+    .priceSecure {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        @include md {
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .iconText {
+            color: clr(dark, main);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            em {
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+// Press
+.pressOne {
+    background-color: clr(dark, main);
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+
+        @include md {
+            gap: 24px;
+        }
+
+        li {
+            img {
+                height: 30px;
+                width: auto;
+
+                @include md {
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

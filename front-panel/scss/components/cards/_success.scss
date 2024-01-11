@@ -1,0 +1,46 @@
+// Success Card One
+.successCardOne {
+    display: flex;
+    gap: 15px;
+
+    @include md {
+        gap: 24px;
+    }
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: clr(secondary, main);
+        background-color: clr(secondary, outline);
+
+        @include md {
+            font-size: 32px;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .content {
+        h6 {
+            margin: 0;
+        }
+
+        p {
+            margin: 15px 0 0;
+
+            + p {
+                margin: 10px 0 0;
+            }
+        }
+    }
+}

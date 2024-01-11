@@ -1,0 +1,41 @@
+.circleProgress {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    height: unset;
+
+    .barOverflow {
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 100px;
+
+        .bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            border: 10px solid clr(light, outline);
+            border-bottom-color: #fdac42;
+            border-right-color: #fdac42;
+        }
+    }
+
+    h3 {
+        position: relative;
+        margin-top: -20px;
+        margin-bottom: 0;
+    }
+}
+
+.customProgress {
+    height: 4px;
+    background-color: clr(light, main);
+
+    .progress-bar {
+        background-color: clr(primary, main);
+    }
+}

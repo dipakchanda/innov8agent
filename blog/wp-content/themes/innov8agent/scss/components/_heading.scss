@@ -1,0 +1,40 @@
+// Heading
+.sectionTitle {
+    h6 {
+        color: clr(primary, main);
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        span {
+            color: clr(primary, main);
+        }
+    }
+    h1 {
+        &.titleL {
+            @include headingL;
+        }
+    }
+    p {
+        @include paraL;
+        margin: 15px 0 0;
+    }
+    .btnSec {
+        margin: 24px 0 0;
+    }
+}
+
+// Page Title
+.pageTitle {
+    padding: 100px 0 15px;
+
+    @include md {
+        padding: 130px 0 30px;
+    }
+}

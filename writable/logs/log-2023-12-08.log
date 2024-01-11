@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-08 16:54:48 --> Call to a member function setFrom() on string
+in APPPATH/Controllers/IAhome.php on line 317.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\IAhome->callback()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 16:57:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:57:43 --> 
+ERROR - 2023-12-08 17:05:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 17:05:14 --> 
+ERROR - 2023-12-08 17:28:02 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 17:28:02 --> 

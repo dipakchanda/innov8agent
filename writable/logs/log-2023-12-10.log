@@ -1,0 +1,26 @@
+ERROR - 2023-12-10 15:35:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-10 15:35:03 --> 220 smtp.gmail.com ESMTP br3-20020a056512400300b0050bf5077aadsm832865lfb.29 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [13.50.212.130]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK br3-20020a056512400300b0050bf5077aadsm832865lfb.29 - gsmtp
+
+to: 553-5.1.3 The recipient address <Innov8Agent> is not a valid RFC 5321 address.
+553-5.1.3 For more information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. br3-20020a056512400300b0050bf5077aadsm832865lfb.29 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Innov8Agent> is not a valid RFC 5321 address.
+553-5.1.3 For more information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. br3-20020a056512400300b0050bf5077aadsm832865lfb.29 - gsmtp
+
+quit: 221 2.0.0 closing connection br3-20020a056512400300b0050bf5077aadsm832865lfb.29 - gsmtp
+

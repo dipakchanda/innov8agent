@@ -1,0 +1,91 @@
+.accountOne {
+    .contentSec {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        background-color: clr(light, outline);
+        border: 1px solid clr(dark, outline);
+        padding: 15px;
+        border-radius: 10px;
+
+        @include md {
+            gap: 32px;
+            padding: 30px;
+        }
+
+        .profileImg {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+
+            .btns {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                a {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 5px;
+                    font-weight: 500;
+
+                    em {
+                        font-size: 1.2em;
+                    }
+
+                    &:first-child {
+                        padding: 6px 12px;
+                        color: clr(dark, main);
+                        border: 1px solid clr(dark, main);
+                        border-radius: 30px;
+                    }
+
+                    &:last-child {
+                        color: clr(secondary, main);
+                    }
+                }
+            }
+        }
+
+        .socialConnect {
+            li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                border: 1px solid clr(dark, outline);
+                border-radius: 6px;
+
+                span {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    img {
+                        height: 20px;
+                    }
+                }
+
+                .btn {
+                    padding: 8px 15px;
+                }
+
+                &:first-child {
+                    border-radius: 6px 6px 0 0;
+                }
+
+                + li {
+                    border-top: none;
+                    border-radius: 0 0 6px 6px;
+                }
+            }
+        }
+    }
+}

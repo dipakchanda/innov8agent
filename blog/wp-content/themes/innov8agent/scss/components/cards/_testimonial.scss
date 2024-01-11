@@ -1,0 +1,20 @@
+// Testimonial Card One
+.testimonialCardOne {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: clr(light, outline);
+    transition: 0.6s all;
+
+    .details {
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 20px rgba(clr(dark, hover), 0.5);
+    }
+}

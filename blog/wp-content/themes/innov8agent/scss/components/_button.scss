@@ -1,0 +1,182 @@
+// Btn
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.6;
+
+    padding: 6px;
+    padding-left: 24px;
+    position: relative;
+    z-index: 1;
+
+    border: 1px solid transparent;
+    border-radius: 36px;
+
+    white-space: nowrap;
+    box-shadow: none;
+    outline: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        box-shadow: none;
+        outline: none;
+    }
+
+    em {
+        font-size: 18px;
+        background-color: clr(light, outline);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    &Primary {
+        color: clr(light, outline);
+        background-color: clr(primary, main);
+        border-color: clr(primary, focus);
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: clr(light, outline);
+            background-color: clr(primary, hover);
+            border-color: clr(primary, focus);
+        }
+
+        em {
+            color: clr(primary, main);
+        }
+    }
+
+    &Secondary {
+        color: clr(light, outline);
+        background-color: clr(secondary, main);
+        border-color: clr(secondary, focus);
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: clr(light, outline);
+            background-color: clr(secondary, hover);
+            border-color: clr(secondary, focus);
+        }
+
+        em {
+            color: clr(secondary, main);
+        }
+    }
+
+    &PrimaryBorder {
+        color: clr(primary, main);
+        background-color: transparent;
+        border-color: clr(primary, main);
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: clr(light, outline);
+            background-color: clr(primary, hover);
+            border-color: clr(primary, focus);
+        }
+    }
+
+    &SecondaryBorder {
+        color: clr(secondary, main);
+        background-color: transparent;
+        border-color: clr(secondary, main);
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: clr(light, outline);
+            background-color: clr(secondary, hover);
+            border-color: clr(secondary, focus);
+        }
+    }
+
+    &.style2 {
+        padding: 14px 24px;
+        gap: 0;
+        justify-content: center;
+    }
+}
+
+.btnSec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    @include md {
+        gap: 24px;
+    }
+
+    .btn {
+        height: 100%;
+    }
+}
+
+// Social Button
+.socialBtn {
+    color: clr(blue, main);
+    background-color: clr(blue, outline);
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    padding: 14px;
+
+    &:hover {
+        color: clr(dark, main);
+    }
+
+    span {
+        span {
+            display: none;
+            margin-right: 5px;
+
+            @include md {
+                display: inline-block;
+            }
+        }
+    }
+
+    img {
+        height: 24px;
+    }
+}
+
+// Tag Link
+.tagLink {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: clr(dark, main);
+    background-color: clr(light, hover);
+    border: 1px solid clr(dark, outline);
+    border-radius: 20px;
+    padding: 4px 10px;
+
+    &:hover {
+        color: clr(dark, main);
+    }
+
+    &.geen {
+        color: clr(primary, main);
+    }
+
+    &.blue {
+        color: clr(blue, main);
+    }
+}

